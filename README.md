@@ -1,3 +1,7 @@
+> **NOTE**
+> 
+> This is only a fork to add DXF export of sketches. The [original version by @jnesslr](https://github.com/Jnesselr/fusion-360-total-exporter) is probably going to swoosh past this fork within days if not even hours, so star and spread that one and also all credit, kudos and love to @jnesslr! 
+
 # Fusion 360 Total Exporter
 Need to export all of your fusion data in a bunch of formats? We've got you covered. This will export your designs across all hubs, projects, files, and components. It exports them in STL, STEP, and IGES format. It also exports the sketches as DXF. It doesn't ask what you want written out, it just writes out the latest version of everything.
 
