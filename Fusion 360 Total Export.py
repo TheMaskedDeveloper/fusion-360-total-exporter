@@ -208,7 +208,12 @@ class TotalExport(object):
     return out_path
   
   def _name(self, name):
-    return name.replace('/', ' ').replace('"', ' ').replace('%', ' ')
+    name = name.replace('/', ' ').replace('"', ' ').replace('%', ' ')
+
+    if name.endswith('.stp') or name.endswith('.stl') or name.endswith('.igs'):
+      name = name[0: -4] + "_" + name[-3:]
+      
+    return name
 
     
 
